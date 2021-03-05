@@ -1,0 +1,6 @@
+# from base image node
+# https://github.com/tt-oo/docker-stress
+FROM progrium/stress
+
+# command executable and version
+CMD ["cat"]
