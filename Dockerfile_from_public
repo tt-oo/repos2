@@ -1,0 +1,5 @@
+# from base image node
+FROM alpine:latest
+
+# command executable and version
+CMD ["cat"]
