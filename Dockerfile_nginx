@@ -1,0 +1,4 @@
+# my nginx 
+FROM nginx:1.14.2
+
+RUN ls -al
