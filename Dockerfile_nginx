@@ -4,4 +4,4 @@ FROM nginx:1.14.2
 RUN ls -al
 RUN echo 'hello'
 
-CMD ['echo hello']
+CMD ["/bin/bash", "-c", 'echo hello']
