@@ -3,3 +3,5 @@ FROM nginx:1.14.2
 
 RUN ls -al
 RUN echo 'hello'
+
+CMD ['echo hello']
