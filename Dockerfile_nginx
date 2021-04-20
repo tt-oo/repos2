@@ -2,3 +2,5 @@
 FROM nginx:1.14.2
 
 RUN ls -al
+
+CMD ["/bin/sh" "-c" "echo '04-20 aaa'"]
