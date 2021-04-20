@@ -5,4 +5,4 @@ RUN ls -al
 RUN echo 'hello'
 
 CMD ["echo", "hello"]
-CMD ["nginx" "-g" "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]
